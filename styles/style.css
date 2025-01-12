@@ -1,0 +1,46 @@
+ .fira-sans-static {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    margin: 2px 35px 10px;
+    width: 1200px;
+    height: 400px;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 100px;
+    border: 2px;
+    border-radius: 20px;   
+}
+.btn{
+    background-color: #006A50;
+    padding: 20px 32px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px 12px;     
+}
+.banner-content{
+    max-width: 580px;
+}
+.sub-title{
+     color: dimgray;
+     font-size: 24px;
+     padding: 4px;
+     margin-bottom: 0;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 49px;
+    margin-bottom: 40px ;
+    margin-top: 0;
+    
+}
+.banner-pro-pic{
+    width: 474px ;
+}
