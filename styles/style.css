@@ -4,10 +4,12 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
 .first{
     padding: 40px;
+    background-color:white;
 }
-/* banner styles */
+/* ...banner styles... */
 .banner{
     font-family: "Fira Sans", serif;
     display: flex;
@@ -48,7 +50,7 @@
     width: 474px ;
 }
 
-/* vison section design */
+/*... vision section design... */
 .section-title{
     font-weight: bold;
     font-size: 40px;
@@ -107,7 +109,6 @@
     border: none;  
     margin-top: 20px;
 }
-
 /* model3 styles */
 .development-model3{
     height: 280px;
@@ -126,3 +127,80 @@
     border-radius: 8px;
     border: none;
 }
+
+
+ /*... Recent news section styles... */
+.section{
+    margin-bottom: 50px;
+    }
+.section-title{
+    font-weight: 800;
+    color: var(--text-color-dark);
+    font-size: 40px;
+    margin-bottom: 20px;
+    }
+.section-description{
+    margin-bottom: 30px;
+    }
+.news-card{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    background-color: rgba(230, 223, 223, 0.315);
+    border-radius: 4%;
+}
+.news-content{
+   padding-left: 10px;  
+}
+.news-img{
+    height: 306px;
+    width:408px;
+    border-radius:5%;
+}
+.btn-primary{
+    background-color: #006A50;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+/* ...donate section design... */
+.donate-container{
+      text-align: center;
+      margin: auto;
+}
+.section-title{
+   text-align: center;
+}
+.donation-boxes{
+    display: flex;
+    padding: 10px;
+    gap: 24px;
+    margin: 20px 100px; 
+    border-radius: 5%;
+    height: 100px;
+    padding-left: 80px;
+}
+.donation-item{
+    background-color: rgba(220, 217, 217, 0.349);
+    padding: 20px;
+    color: #272525c5;
+    font-weight: bold;
+    font-size: 38px;
+    border-radius: 7px 7px;  
+}
+#color{
+    background-color: #C6E4D6;
+}
+#txt{
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: rgba(243, 243, 243, 0.966);
+    width: 870px;
+    height: 35px;
+    border: none;
+    align-items: center;
+    margin-left: 200px;
+    padding-top: 11px;
+    }
