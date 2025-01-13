@@ -9,6 +9,7 @@
     padding: 40px;
     background-color:white;
 }
+
 /* ...banner styles... */
 .banner{
     font-family: "Fira Sans", serif;
@@ -132,16 +133,7 @@
  /*... Recent news section styles... */
 .section{
     margin-bottom: 50px;
-    }
-.section-title{
-    font-weight: 800;
-    color: var(--text-color-dark);
-    font-size: 40px;
-    margin-bottom: 20px;
-    }
-.section-description{
-    margin-bottom: 30px;
-    }
+ }
 .news-card{
     display: flex;
     margin-bottom: 20px;
@@ -163,6 +155,9 @@
     border: none;
     padding: 10px;
     color: white;
+}
+.btn-primary:hover{
+    color: wheat;
 }
 
 /* ...donate section design... */
@@ -193,14 +188,89 @@
 #color{
     background-color: #C6E4D6;
 }
-#txt{
+.txt-1{
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     background-color: rgba(243, 243, 243, 0.966);
-    width: 870px;
+    width: 700px;
     height: 35px;
     border: none;
+    border-radius: 5px;
     align-items: center;
-    margin-left: 200px;
-    padding-top: 11px;
+    margin-left: 250px;
+    padding-top: 15px;
+    padding-left: 90px;
+}
+  /* shared styles */   
+.section-title{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+
     }
+  
+.section-description{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+    width: 700px;
+    font-weight: 550px ;
+    padding-left: 260px;
+}
+/* Newsletter section styles */
+.newsletter{
+    background-color:#C6E4D6;
+    width: 1295px;
+    height: 380px;
+    margin-left: 60px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 10px 10px;
+}   
+.container{
+    align-content: center;
+    padding-top: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    padding-left: 80px;
+}
+.subscription{
+    display: flex;
+}
+.subscription a{
+    text-align: center;
+    color: white;
+    background-color: #006A50;
+    height: 46px;
+    width: 140px;
+    font-weight: bold;
+    margin: 16px 0;
+    border-radius: 5px; 
+    }
+    .txt{
+        text-decoration: none;
+        margin-bottom: 20px;
+        background-color: rgba(243, 243, 243, 0.966);
+        width: 550px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        align-items: center;
+        margin-left: 160px;
+        padding-top: 11px;
+        padding-left: 30px;
+    }          
+.sub-info{
+    text-align: center;
+    padding-top: 5px;
+    
+}
+/* Icon styles */
+.social-icons{
+    text-align: center;
+    
+        
+        
+}
