@@ -4,15 +4,18 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.first{
+    padding: 40px;
+}
 /* banner styles */
 .banner{
+    font-family: "Fira Sans", serif;
     display: flex;
-    margin: 2px 35px 10px;
     width: 1200px;
     height: 400px;
     justify-content: space-between;
     background-color: #C6E4D6;
-    padding: 100px;
+    padding: 100px; 
     border: 2px;
     border-radius: 20px;   
 }
@@ -43,4 +46,83 @@
 }
 .banner-pro-pic{
     width: 474px ;
+}
+
+/* vison section design */
+.section-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-description{
+    font-size: 16;
+    margin: 0px;
+}
+
+/* model1 styles */
+.model-container{
+    display: flex;
+    gap: 32px;
+    padding-top: 40px;
+    border: 2px;
+    border-radius: 20%;
+    font-size: 18px;
+}
+.development-model1{
+    height: 280px;
+    width: 500px;
+    background-color: #bfd5fa;
+    padding: 20px;
+    border: 2px;
+    border-radius: 5%;
+
+}
+.btn-1{
+    background-color: #5490F5;
+    color: white;
+    font-size: 16px;
+    padding: 18px 28px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 5px; 
+}
+
+/* model2 styles */
+.development-model2{
+    height: 280px;
+    width: 500px;
+    background-color: #C6E4D6;
+    padding: 20px;
+    border: 2px;
+    border-radius: 5%;
+     
+}
+.btn-2{
+    background-color: #09A15C;
+    color: white;
+    font-size: 16px;
+    padding: 18px 28px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;  
+    margin-top: 20px;
+}
+
+/* model3 styles */
+.development-model3{
+    height: 280px;
+    width: 500px;
+    background-color: #F7EBCF;
+    padding: 20px;
+    border: 2px;
+    border-radius: 5%; 
+}
+.btn-3{
+    background-color: #FFC239 ;
+    color: white;
+    font-size: 16px;
+    padding: 18px 28px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
 }
