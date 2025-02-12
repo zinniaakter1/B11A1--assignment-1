@@ -1,14 +1,3 @@
-### WELCOME TO ASSIGNMENT-001
-
-# <img width=20 src="https://img.icons8.com/?size=96&id=60238&format=png"/> BANGLADESH 2.0
-
-## **📅 Deadline For 60 marks**: 11th January , 2025 ( 11:59 pm ⏱️)
-
-## **📅 Deadline For 50 marks**: 12th January , 2025 ( 11:59 pm ⏱️)
-
-**📅 Deadline For 30 marks**: Any time after 12th January.
-
-## Requirements (50)
 
 ### 1. Banner Section
 
